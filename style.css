@@ -5,7 +5,7 @@
     font-family: sans-serif;
     color: #dadada;
     text-decoration: none;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Fredoka One', cursive;
 }
 
 body{
@@ -31,8 +31,8 @@ footer{
 
 h1{
     text-align: center;
-    font-size: 2.2rem;
-    padding: 20px;
+    font-size: 2rem;
+    padding: 10px;
 }
 
 #result{
@@ -45,7 +45,7 @@ h1{
 
 #start-text{
     font-size: 1.5rem;
-    padding: 20px;
+    padding: 10px;
 }
 
 #group-btn{
@@ -84,12 +84,12 @@ footer a{
 @media (max-width: 450px){
 
     .container{
-        width: 95vw;
+        width: 90vw;
         margin-top: 2vh;
     }
 
     #result img{
-        width: 40%;
+        width: 30%;
     }
 
     #group-btn button{
