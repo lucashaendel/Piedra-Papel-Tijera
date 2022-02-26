@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #dadada;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+}
+
+body{
+    width: 100vw;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 50vw;
+    height: 95vh;
+    background-color: #ca3b42;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid #222222;
+    margin-top: 2vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 20px;
+}
+
+#result{
+    text-align: center;
+}
+
+#result img{
+    width: 20%;
+}
+
+#start-text{
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+#group-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#group-btn button{
+    width: 20%;
+    background-color: #c5686d;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0px 7px 1px rgba(0, 0, 0, 0.40);
+    cursor: pointer;
+    transition: .5s;
+}
+
+#group-btn button:hover{
+    background-color: #ca8f92;
+    transition: .5s;
+}
+
+#group-btn button img{
+    width: 100%;
+}
+
+footer{
+    color: #222222;
+}
+
+footer a{
+    color: #030303;
+}
+
+@media (max-width: 450px){
+
+    .container{
+        width: 95vw;
+        margin-top: 2vh;
+    }
+
+    #result img{
+        width: 40%;
+    }
+
+    #group-btn button{
+        width: 30%;
+    }
+}
+
